@@ -394,6 +394,26 @@ p {
 }
 
 /* section-four */
+.title-people-prod-four {
+  color: var(--c-brnd);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.title-about-four {
+  color: var(--c-contact);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 8px;
+}
 
 .product-image {
   position: relative;
@@ -477,9 +497,13 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  width: 264px;
   margin: 0;
   margin-bottom: 16px;
+}
+
+.fotter-social {
+  margin-right: 80px;
 }
 
 .socials-text {
@@ -597,8 +621,13 @@ p {
   align-items: center;
   justify-content: center;
   background-color: rgba(46, 47, 66, 0.4);
+  opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-open {
+  opacity: 1;
 }
 
 .modal {
