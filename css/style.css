@@ -96,6 +96,12 @@ h6 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .header {
+    padding: 9px 0;
+  }
+}
+
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -529,11 +535,13 @@ h6 {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .bgcolor-for-team {
     gap: 64px 24px;
+    justify-content: center;
   }
 }
 
@@ -620,7 +628,7 @@ h6 {
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .bgcolor-for-myteam {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 240px) / 2);
   }
 }
 
@@ -976,11 +984,15 @@ h6 {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: auto;
+    visibility: hidden;
   }
 }
 
 .backdrop.is-open {
   opacity: 1;
+  pointer-events: auto;
+  visibility: hidden;
 }
 
 .modal {
