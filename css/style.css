@@ -735,6 +735,12 @@ h6 {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+}
+
 .fotter-logoandp {
   margin-right: 120px;
 }
@@ -774,6 +780,12 @@ h6 {
   letter-spacing: 0.02em;
   width: 264px;
   margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .footer-text {
+    margin-bottom: 72px;
+  }
 }
 
 .fotter-social {
@@ -846,17 +858,22 @@ h6 {
 }
 
 .fotter-modal-form {
+  display: flex;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
   .fotter-modal-form {
     flex-wrap: wrap;
+    display: block;
+    margin-bottom: 16px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .fotter-modal-form {
+    display: flex;
     flex-wrap: wrap;
   }
 }
@@ -874,12 +891,16 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
   }
 }
 
-.fotter-modal-form {
-  display: flex;
-  gap: 24px;
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .fotter-modal-parg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
