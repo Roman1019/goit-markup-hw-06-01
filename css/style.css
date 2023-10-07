@@ -1001,6 +1001,8 @@ h6 {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: auto;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -1030,15 +1032,12 @@ h6 {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    pointer-events: auto;
-    visibility: hidden;
   }
 }
 
 .backdrop.is-open {
   opacity: 1;
-  pointer-events: auto;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .modal {
