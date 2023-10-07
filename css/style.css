@@ -335,7 +335,6 @@ h6 {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/Dark-bgmob@2x.jpg);
-    padding: 112px 0;
   }
 }
 
@@ -357,7 +356,6 @@ h6 {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/Dark-bgtab@2x.jpg);
-    padding: 112px 0;
   }
 }
 
@@ -379,7 +377,6 @@ h6 {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/people-office1desctop@2x.jpg);
-    padding: 188px 0;
   }
 }
 
@@ -749,7 +746,8 @@ h6 {
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .footer-inner {
-    justify-content: center;
+    justify-content: left;
+    width: 584px;
   }
 }
 
@@ -815,6 +813,12 @@ h6 {
     align-items: center;
     margin-right: 0;
     margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .fotter-social {
+    margin-right: 0;
   }
 }
 
