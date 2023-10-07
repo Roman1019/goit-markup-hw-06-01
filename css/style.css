@@ -908,6 +908,11 @@ h6 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .fotter-modal-rode {
+    text-align: center;
+  }
+}
 .fotter-modal-input {
   width: 264px;
   height: 40px;
