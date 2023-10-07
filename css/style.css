@@ -741,8 +741,20 @@ h6 {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .footer-inner {
+    justify-content: center;
+  }
+}
+
 .fotter-logoandp {
   margin-right: 120px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .fotter-logoandp {
+    margin-right: 24px;
+  }
 }
 
 @media screen and (max-width: 768px) {
