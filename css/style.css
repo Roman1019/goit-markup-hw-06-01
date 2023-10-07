@@ -317,33 +317,36 @@ h6 {
   /* flex-shrink: 0; */
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/Dark-bgmob.jpg);
+    padding: 112px 0;
   }
 }
 
-@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 768px) and (min-resolution: 192dpi) {
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/Dark-bgmob@2x.jpg);
+    padding: 112px 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1158px) {
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/Dark-bgtab.jpg);
+    padding: 112px 0;
   }
 }
 
@@ -354,6 +357,7 @@ h6 {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/Dark-bgtab@2x.jpg);
+    padding: 112px 0;
   }
 }
 
@@ -364,6 +368,7 @@ h6 {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/people-office1decktop.jpg);
+    padding: 188px 0;
   }
 }
 
@@ -374,6 +379,7 @@ h6 {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/section1/people-office1desctop@2x.jpg);
+    padding: 188px 0;
   }
 }
 
